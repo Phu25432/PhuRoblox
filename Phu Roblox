@@ -9,8 +9,8 @@ spawn(function()
         task.wait()
     until game.Players.LocalPlayer and game.Players.LocalPlayer.Team ~= nil 
     wait(1.5)
-    require(game.ReplicatedStorage.Notification).new("<Color=Red> Welcome To AFX Hub <Color=/>"):Display()
-    require(game.ReplicatedStorage.Notification).new("<Color=Yellow>Discord : Join PhuRoblox's Discord to Get the Latest Information <Color=/>"):Display()
+    require(game.ReplicatedStorage.Notification).new("<Color=Red> Welcome To Phu Hub <Color=/>"):Display()
+    require(game.ReplicatedStorage.Notification).new("<Color=Yellow>Discord : Join Phu's Discord to Get the Latest Information <Color=/>"):Display()
 end)
 ----------------------------------------------------------------------------------------------------------------------------------------------
 local Fluent = loadstring(game:HttpGet("https://github.com/dawid-scripts/Fluent/releases/latest/download/main.lua"))()
@@ -25,7 +25,7 @@ local Window =
     Fluent:CreateWindow(
     {
         Title = "PhúRoblox Hub",
-        SubTitle = "Skid And Setup By PhuRoblox",
+        SubTitle = "Skid And Setup By phuRoblox",
         TabWidth = 160,
         Size = UDim2.fromOffset(530, 350),
         Acrylic = true,
@@ -51,7 +51,7 @@ local Options = Fluent.Options
 do
     Tabs.Discord:AddButton(
         {
-            Title = "Copy Link Discord PhuRoblox",
+            Title = "Copy Link Discord phuRoblox",
             Description = "https://discord.gg/yZDRPEVXtz",
             Callback = function()
                 setclipboard("https://discord.gg/yZDRPEVXtz")
@@ -68,7 +68,7 @@ do
     )
     Tabs.Discord:AddButton(
         {
-            Title = "Copy Link Youtube PhuRoblox",
+            Title = "Copy Link Youtube phuRoblox",
             Description = "https://www.youtube.com/channel/UCppExFlPUorGZNKXp8GFtmw",
             Callback = function()
                 setclipboard("https://www.youtube.com/channel/UCppExFlPUorGZNKXp8GFtmw")
@@ -4070,7 +4070,7 @@ do
     ToggleButton.Position = UDim2.new(0.120833337, 0, 0.0952890813, 0)
     ToggleButton.Size = UDim2.new(0, 50, 0, 50)
     ToggleButton.Font = Enum.Font.SourceSans
-    ToggleButton.Text = "PhuRoblox"
+    ToggleButton.Text = "phuRoblox"
     ToggleButton.TextColor3 = Color3.fromRGB(255, 255, 255)
     ToggleButton.TextSize = 14.000
     ToggleButton.Draggable = true
