@@ -52,12 +52,12 @@ do
     Tabs.Discord:AddButton(
         {
             Title = "Copy Link Discord phuRoblox",
-            Description = "https://discord.gg/yZDRPEVXtz",
+            Description = "https://discord.gg/invite/Tm4AXpcr8J",
             Callback = function()
-                setclipboard("https://discord.gg/yZDRPEVXtz")
+                setclipboard("https://discord.gg/invite/Tm4AXpcr8J")
                 Fluent:Notify(
                     {
-                        Title = "AFX Hub",
+                        Title = "PHU Hub",
                         Content = "Copied!",
                         SubContent = "", -- Optional
                         Duration = 5 -- Set to nil to make the notification not disappear
@@ -66,15 +66,15 @@ do
             end
         }
     )
-    Tabs.Discord:AddButton(
+    Tabs.Discord:PhuRoblox(
         {
             Title = "Copy Link Youtube phuRoblox",
-            Description = "https://www.youtube.com/channel/UCppExFlPUorGZNKXp8GFtmw",
+            Description = "https://www.youtube.com/channel/PhuRoblox",
             Callback = function()
-                setclipboard("https://www.youtube.com/channel/UCppExFlPUorGZNKXp8GFtmw")
+                setclipboard("https://www.youtube.com/channel/Phuoblox")
                 Fluent:Notify(
                     {
-                        Title = "AFX Hub",
+                        Title = "PHU Hub",
                         Content = "Copied!",
                         SubContent = "", -- Optional
                         Duration = 5 -- Set to nil to make the notification not disappear
