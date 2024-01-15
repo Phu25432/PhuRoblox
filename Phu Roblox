@@ -40,7 +40,7 @@ local Tabs = {
     Stats = Window:AddTab({Title = "Stats", Icon = "plus-circle"}),
     Player = Window:AddTab({Title = "Player", Icon = "baby"}),
     Teleport = Window:AddTab({Title = "Island", Icon = "palmtree"}),
-    Fruit = Window:AddTab({Title = "Fruitas", Icon = "cherry"}),
+    Fruit = Window:AddTab({Title = "Fruits", Icon = "cherry"}),
     Raid = Window:AddTab({Title = "Raid", Icon = "swords"}),
     Race = Window:AddTab({Title = "Race V4", Icon = "chevrons-right"}),
     Shop = Window:AddTab({Title = "Shop", Icon = "shopping-cart"}),
