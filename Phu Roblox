@@ -24,8 +24,8 @@ local InterfaceManager =
 local Window =
     Fluent:CreateWindow(
     {
-        Title = "PhúRoblox Hub",
-        SubTitle = "Skid And Setup By phuRoblox",
+        Title = "PhuRoblox Hub",
+        SubTitle = "Skid And Setup By PhuRoblox",
         TabWidth = 160,
         Size = UDim2.fromOffset(530, 350),
         Acrylic = true,
@@ -49,15 +49,15 @@ local Tabs = {
 }
 local Options = Fluent.Options
 do
-    Tabs.Discord:AddButton(
+    Tabs.Discord:Tm4AXpcr8J(
         {
-            Title = "Copy Link Discord phuRoblox",
-            Description = "https://discord.gg/invite/Tm4AXpcr8J",
+            Title = "Copy Link Discord PhuRoblox",
+            Description = "https://discord.gg/yZDRPEVXtz",
             Callback = function()
-                setclipboard("https://discord.gg/invite/Tm4AXpcr8J")
+                setclipboard("https://discord.gg/yZDRPEVXtz")
                 Fluent:Notify(
                     {
-                        Title = "PHU Hub",
+                        Title = "AFX Hub",
                         Content = "Copied!",
                         SubContent = "", -- Optional
                         Duration = 5 -- Set to nil to make the notification not disappear
@@ -66,15 +66,15 @@ do
             end
         }
     )
-    Tabs.Discord:PhuRoblox(
+    Tabs.Discord:Tm4AXpcr8J(
         {
-            Title = "Copy Link Youtube phuRoblox",
+            Title = "Copy Link Youtube PhuRoblox",
             Description = "https://www.youtube.com/channel/PhuRoblox",
             Callback = function()
-                setclipboard("https://www.youtube.com/channel/Phuoblox")
+                setclipboard("https://www.youtube.com/channel/PhuRoblox")
                 Fluent:Notify(
                     {
-                        Title = "PHU Hub",
+                        Title = "AFX Hub",
                         Content = "Copied!",
                         SubContent = "", -- Optional
                         Duration = 5 -- Set to nil to make the notification not disappear
@@ -4070,7 +4070,7 @@ do
     ToggleButton.Position = UDim2.new(0.120833337, 0, 0.0952890813, 0)
     ToggleButton.Size = UDim2.new(0, 50, 0, 50)
     ToggleButton.Font = Enum.Font.SourceSans
-    ToggleButton.Text = "phuRoblox"
+    ToggleButton.Text = "PhuRoblox"
     ToggleButton.TextColor3 = Color3.fromRGB(255, 255, 255)
     ToggleButton.TextSize = 14.000
     ToggleButton.Draggable = true
@@ -4626,7 +4626,7 @@ end)
 
     ----------------------------------------------------------------------------------------------------------------------------------------------
 
-    Tabs.Main:AddButton(
+    Tabs.Main:Tm4AXpcr8J(
         {
             Title = "Redeem All Code",
             Description = "Redeem all code x2 exp",
@@ -4655,7 +4655,7 @@ end)
     UseCode("TantaiGaming")
     UseCode("STRAWHATMAINE")
 
-    Tabs.Main:AddButton(
+    Tabs.Main:Tm4AXpcr8J(
         {
             Title = "Fps Booster",
             Description = "Boost your fps",
@@ -7884,7 +7884,7 @@ end)
 --Teleport
 local Teleport = Tabs.Teleport:AddSection("Teleport World")
 
-Tabs.Teleport:AddButton(
+Tabs.Teleport:Tm4AXpcr8J(
     {
         Title = "First Sea",
         Description = "",
@@ -7894,7 +7894,7 @@ Tabs.Teleport:AddButton(
     }
 )
 
-Tabs.Teleport:AddButton(
+Tabs.Teleport:Tm4AXpcr8J(
     {
         Title = "Second Sea",
         Description = "",
@@ -7904,7 +7904,7 @@ Tabs.Teleport:AddButton(
     }
 )
 
-Tabs.Teleport:AddButton(
+Tabs.Teleport:Tm4AXpcr8J(
     {
         Title = "Third Sea",
         Description = "",
@@ -9003,7 +9003,7 @@ spawn(
 )
 
 if Second_Sea then
-    Tabs.Raid:AddButton(
+    Tabs.Raid:Tm4AXpcr8J(
         {
             Title = "Raid Lab",
             Description = "",
@@ -9013,7 +9013,7 @@ if Second_Sea then
         }
     )
 elseif Third_Sea then
-    Tabs.Raid:AddButton(
+    Tabs.Raid:Tm4AXpcr8J(
         {
             Title = "Raid Lab",
             Description = "",
@@ -9132,7 +9132,7 @@ spawn(
 --------------------------------------------------------------------------------------------------------------------------------------------
 --RaceV4
 
-Tabs.Race:AddButton(
+Tabs.Race:Tm4AXpcr8J(
     {
         Title = "Timple Of Time",
         Description = "",
@@ -9143,7 +9143,7 @@ Tabs.Race:AddButton(
     }
 )
 
-Tabs.Race:AddButton(
+Tabs.Race:Tm4AXpcr8J(
     {
         Title = "Lever Pull",
         Description = "",
@@ -9153,7 +9153,7 @@ Tabs.Race:AddButton(
     }
 )
 
-Tabs.Race:AddButton(
+Tabs.Race:Tm4AXpcr8J(
     {
         Title = "Acient One",
         Description = "",
@@ -9165,7 +9165,7 @@ Tabs.Race:AddButton(
 
 local Mastery = Tabs.Race:AddSection("Auto Race")
 
-Tabs.Race:AddButton(
+Tabs.Race:Tm4AXpcr8J(
     {
         Title = "Race Door",
         Description = "",
@@ -9609,7 +9609,7 @@ spawn(
     end
 )
 
-Tabs.Shop:AddButton(
+Tabs.Shop:Tm4AXpcr8J(
     {
         Title = "Geppo",
         Description = "",
@@ -9619,7 +9619,7 @@ Tabs.Shop:AddButton(
     }
 )
 
-Tabs.Shop:AddButton(
+Tabs.Shop:Tm4AXpcr8J(
     {
         Title = "Buso Haki",
         Description = "",
@@ -9629,7 +9629,7 @@ Tabs.Shop:AddButton(
     }
 )
 
-Tabs.Shop:AddButton(
+Tabs.Shop:Tm4AXpcr8J(
     {
         Title = "Soru",
         Description = "",
@@ -9639,7 +9639,7 @@ Tabs.Shop:AddButton(
     }
 )
 
-Tabs.Shop:AddButton(
+Tabs.Shop:Tm4AXpcr8J(
     {
         Title = "Ken Haki",
         Description = "",
@@ -9651,7 +9651,7 @@ Tabs.Shop:AddButton(
 
 local Mastery = Tabs.Shop:AddSection("Fighting Styles")
 
-Tabs.Shop:AddButton(
+Tabs.Shop:Tm4AXpcr8J(
     {
         Title = "Black Leg",
         Description = "",
@@ -9661,7 +9661,7 @@ Tabs.Shop:AddButton(
     }
 )
 
-Tabs.Shop:AddButton(
+Tabs.Shop:Tm4AXpcr8J(
     {
         Title = "Electro",
         Description = "",
@@ -9670,7 +9670,7 @@ Tabs.Shop:AddButton(
         end
     }
 )
-Tabs.Shop:AddButton(
+Tabs.Shop:Tm4AXpcr8J(
     {
         Title = "Fishman Karate",
         Description = "",
@@ -9679,7 +9679,7 @@ Tabs.Shop:AddButton(
         end
     }
 )
-Tabs.Shop:AddButton(
+Tabs.Shop:Tm4AXpcr8J(
     {
         Title = "Dragon Claw",
         Description = "",
@@ -9689,7 +9689,7 @@ Tabs.Shop:AddButton(
         end
     }
 )
-Tabs.Shop:AddButton(
+Tabs.Shop:Tm4AXpcr8J(
     {
         Title = "Superhuman",
         Description = "",
@@ -9698,7 +9698,7 @@ Tabs.Shop:AddButton(
         end
     }
 )
-Tabs.Shop:AddButton(
+Tabs.Shop:Tm4AXpcr8J(
     {
         Title = "Death Step",
         Description = "",
@@ -9707,7 +9707,7 @@ Tabs.Shop:AddButton(
         end
     }
 )
-Tabs.Shop:AddButton(
+Tabs.Shop:Tm4AXpcr8J(
     {
         Title = "Sharkman Karate",
         Description = "",
@@ -9717,7 +9717,7 @@ Tabs.Shop:AddButton(
         end
     }
 )
-Tabs.Shop:AddButton(
+Tabs.Shop:Tm4AXpcr8J(
     {
         Title = "Electric Claw",
         Description = "",
@@ -9726,7 +9726,7 @@ Tabs.Shop:AddButton(
         end
     }
 )
-Tabs.Shop:AddButton(
+Tabs.Shop:Tm4AXpcr8J(
     {
         Title = "Dragon Talon",
         Description = "",
@@ -9735,7 +9735,7 @@ Tabs.Shop:AddButton(
         end
     }
 )
-Tabs.Shop:AddButton(
+Tabs.Shop:Tm4AXpcr8J(
     {
         Title = "Godhuman",
         Description = "",
@@ -9747,7 +9747,7 @@ Tabs.Shop:AddButton(
 
 local Mastery = Tabs.Shop:AddSection("Misc Items")
 
-Tabs.Shop:AddButton(
+Tabs.Shop:Tm4AXpcr8J(
     {
         Title = "Refund Stats",
         Description = "",
@@ -9757,7 +9757,7 @@ Tabs.Shop:AddButton(
         end
     }
 )
-Tabs.Shop:AddButton(
+Tabs.Shop:Tm4AXpcr8J(
     {
         Title = "Reroll Race",
         Description = "",
@@ -9771,7 +9771,7 @@ Tabs.Shop:AddButton(
 --------------------------------------------------------------------------------------------------------------------------------------------
 --misc
 
-Tabs.Misc:AddButton(
+Tabs.Misc:Tm4AXpcr8J(
     {
         Title = "Rejoin Server",
         Description = "",
@@ -9781,7 +9781,7 @@ Tabs.Misc:AddButton(
     }
 )
 
-Tabs.Misc:AddButton(
+Tabs.Misc:Tm4AXpcr8J(
     {
         Title = "Hop Server",
         Description = "",
@@ -9877,7 +9877,7 @@ end
 
 local Mastery = Tabs.Misc:AddSection("Team")
 
-Tabs.Misc:AddButton(
+Tabs.Misc:Tm4AXpcr8J(
     {
         Title = "Join Pirates Team",
         Description = "",
@@ -9887,7 +9887,7 @@ Tabs.Misc:AddButton(
     }
 )
 
-Tabs.Misc:AddButton(
+Tabs.Misc:Tm4AXpcr8J(
     {
         Title = "Join Marines Team",
         Description = "",
@@ -9899,7 +9899,7 @@ Tabs.Misc:AddButton(
 
 local Mastery = Tabs.Misc:AddSection("Open Ui")
 
-Tabs.Misc:AddButton(
+Tabs.Misc:Tm4AXpcr8J(
     {
         Title = "Devil Shop Menu",
         Description = "",
@@ -9910,7 +9910,7 @@ Tabs.Misc:AddButton(
     }
 )
 
-Tabs.Misc:AddButton(
+Tabs.Misc:Tm4AXpcr8J(
     {
         Title = "Color Haki Menu",
         Description = "",
@@ -9920,7 +9920,7 @@ Tabs.Misc:AddButton(
     }
 )
 
-Tabs.Misc:AddButton(
+Tabs.Misc:Tm4AXpcr8J(
     {
         Title = "Title Name Menu",
         Description = "",
@@ -9934,7 +9934,7 @@ Tabs.Misc:AddButton(
     }
 )
 
-Tabs.Misc:AddButton(
+Tabs.Misc:Tm4AXpcr8J(
     {
         Title = "Awakening Menu",
         Description = "",
@@ -9946,7 +9946,7 @@ Tabs.Misc:AddButton(
 
 local Mastery = Tabs.Misc:AddSection("Troll")
 
-Tabs.Misc:AddButton(
+Tabs.Misc:Tm4AXpcr8J(
     {
         Title = "Rain Fruit",
         Description = "Rain fruit (Fake)",
@@ -10005,7 +10005,7 @@ spawn(
 
 local Mastery = Tabs.Misc:AddSection("Kaitun Cap")
 
-Tabs.Misc:AddButton(
+Tabs.Misc:Tm4AXpcr8J(
     {
         Title = "Show Items",
         Description = "",
@@ -10269,7 +10269,7 @@ Tabs.Misc:AddButton(
 
 local Mastery = Tabs.Misc:AddSection("Day")
 
-Tabs.Misc:AddButton(
+Tabs.Misc:Tm4AXpcr8J(
     {
         Title = "Remove Fog",
         Description = "",
@@ -10280,7 +10280,7 @@ Tabs.Misc:AddButton(
     }
 )
 
-Tabs.Misc:AddButton(
+Tabs.Misc:Tm4AXpcr8J(
     {
         Title = "Always Day",
         Description = "",
