@@ -71,7 +71,7 @@ do
             Title = "Copy Link Youtube PhuRoblox",
             Description = "phú Roblox ",
             Callback = function()
-                setclipboard("https://www.youtube.com/channel/UCppExFlPUorGZNKXp8GFtmw")
+                setclipboard("phú Roblox ")
                 Fluent:Notify(
                     {
                         Title = "PHU Hub",
