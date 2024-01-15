@@ -69,7 +69,7 @@ do
     Tabs.Discord:AddButton(
         {
             Title = "Copy Link Youtube PhuRoblox",
-            Description = "https://www.youtube.com/channel/UCppExFlPUorGZNKXp8GFtmw",
+            Description = "phú Roblox ",
             Callback = function()
                 setclipboard("https://www.youtube.com/channel/UCppExFlPUorGZNKXp8GFtmw")
                 Fluent:Notify(
