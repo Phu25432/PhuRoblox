@@ -4,7 +4,7 @@ local InterfaceManager = loadstring(game:HttpGet("https://raw.githubusercontent.
 --------------------------------------------------------------------------------------------------------------------------------------------
 local Window = Fluent:CreateWindow({
     Title = "AnBaToCut Hub",
-    SubTitle = "by YouTube phú Roblox",
+    SubTitle = "by Phu Hub",
     TabWidth = 160,
     Size = UDim2.fromOffset(450, 300),
     Acrylic = true, -- The blur may be detectable, setting this to false disables blur entirely
@@ -69,7 +69,7 @@ Third_Sea = false
 local placeId = game.PlaceId
 if placeId == 2753915549 then
 First_Sea = true
-elseif pl=aceId == 4442272183 then
+elseif placeId == 4442272183 then
 Second_Sea = true
 elseif placeId == 7449423635 then
 Third_Sea = true
